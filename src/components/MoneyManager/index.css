@@ -1,0 +1,61 @@
+/* Write your CSS here */
+
+.main-cont {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-cont {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  background-size: cover;
+  height: 300px;
+  border-radius: 20px;
+  width: 70%;
+}
+.intro-card {
+  padding: 50px;
+  font-family: 'Roboto';
+}
+.money-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 20px;
+}
+
+.form-histry-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+.titel-cont {
+  margin: 25px;
+}
+.selecter {
+  height: 30px;
+  width: 150px;
+}
+
+.btn-style {
+  height: 30px;
+  width: 90px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+.transaction-list {
+  display: flex;
+  flex-direction: row;
+}
+.trans-para {
+  margin-right: 50px;
+}
+.li-transaction-list {
+  display: flex;
+  flex-direction: column;
+}

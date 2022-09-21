@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.balance-money-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecfccb;
+  height: 70px;
+  width: 28%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.income-money-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cffafe;
+  height: 70px;
+  width: 28%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.expences-money-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ede9fe;
+  height: 70px;
+  width: 28%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.moneyImage {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
